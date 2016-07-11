@@ -1,0 +1,1212 @@
+@import "bourbon"
+@import "vars.sass"
+@import "fonts.sass"
+@import "../app/libs/bootstrap/css/bootstrap"
+@import "../app/libs/bootstrap/css/bootstrap-grid"
+@import "../app/libs/flaticon/flaticon"
+@import "../app/libs/select2/dist/css/select2.min"
+@import "../app/libs/nouislider/nouislider.min"
+@import "tools.sass"
+
+header
+	margin-bottom: 30px
+
+//row region
+.top-line
+	background-color: $azure
+
+.region
+	padding: 12px 10px
+	background-color: #d6ddef
+	color: #1e2127
+	vertical-align: middle
+	i
+		color: $grey
+		margin-right: 7px
+	.region-text
+		display: inline-block
+		vertical-align: top
+	p
+		font-family: 'Helvetica', sans-serif
+		display: inline-block
+		margin: 0
+		vertical-align: middle
+		margin-right: 5px
+	.select-reg
+		color: #8688a9
+		display: inline-block
+		vertical-align: middle
+		a
+			color: $red
+			font-family: 'HelveticaBold', sans-serif
+			border-bottom: 1px dotted $red
+			text-decoration: none
+			font-size: 15px
+			&:hover
+				text-decoration: none
+				border-color: transparent
+			&:focus,
+			&:active
+				text-decoration: none
+				border-color: transparent
+			.city
+
+.reg-btn-wrap
+	padding: 12px 0
+	margin-left: 16px
+
+.addreg
+	color: $grey
+	border-bottom: none
+	border: 1px solid #cbd2e5
+	border-radius: 3px
+	padding: 5px 12px
+	vertical-align: middle
+	font-family: 'HelveticaBold', sans-serif
+	&:hover
+		border: 1px solid $red
+	&:focus,
+	&:active
+		text-decoration: none
+		border: 1px solid #cbd2e5
+		color: $grey
+
+.auth
+	background-color: #d6ddef
+	padding: 12px 0
+	font-size: 14px
+	a
+		color: $blue
+		border-bottom: none
+		color: #1e2127
+		padding: 0 18px
+		&:hover
+			p
+				border-color: transparent 
+		i
+			margin-right: 7px
+			color: $grey
+		p
+			transition: all .3s ease
+			vertical-align: middle
+			border-bottom: 1px solid #7a7f8b
+			display: inline-block
+			margin: 0
+			vertical-align: top
+
+//row brand
+.brand-panel
+	padding: 30px 0
+	.wrap-btn-ad
+		.button-red
+			span
+				vertical-align: top
+				margin-top: 0
+
+.branding	
+	a
+		border-bottom: none
+	img
+		vertical-align: top
+		margin-right: 15px
+		width: 150px
+	.brand-text
+		display: inline-block
+		h1
+			margin: 0
+			span
+				color: $red
+		p
+			margin: 12px 0 0 0
+			color: #000
+			font-size: 15px
+
+.search-form
+	padding: 3px
+	background-color: #d6ddef
+	border-radius: 3px
+	font-family: 'MyriadPro', sans-serif
+	margin-bottom: 15px
+	.dropdown-toggle
+		padding: 6px 9px 6px 5px
+		background-color: #d6ddef
+		border: none !important
+		&:hover
+			background-color: lighten(#d6ddef, 5%)
+		&:focus,
+		&:active
+			background-color: #d6ddef
+	.caret
+		color: #5a6275
+	.form-control
+		padding: 18px 12px
+		border-radius: 3px 0 0 3px !important
+	.btn-search
+		background-color: #7f89a2
+		color: #fff
+		padding: 4px 15px
+		border: none
+		&:hover,
+		&:focus,
+		&:active
+			background-color: #9DAAC9
+			color: #fff
+		span
+			vertical-align: middle
+			display: inline-block
+			margin-top: -8px
+			margin-left: 6px
+			font-size: 15px
+			font-family: "HelveticaBold", sans-serif
+	i
+		&:before
+			font-size: 20px
+	input
+		border: none
+	.dropdown-menu
+		padding: 0
+		margin-left: -3px
+		margin-top: -1px
+		border-radius: 0 0 3px 3px
+		box-shadow: none
+		border: none
+		background-color: #d6ddef
+		font-size: 14px
+		li
+			a
+				padding: 4px 8px
+				color: lighten(#1E2127, 20%)
+				border-bottom: none
+				&:hover,
+				&:focus,
+				&:active
+					background-color: lighten(#d6ddef, 5%) 
+
+.numbers
+	a
+		.number
+			&:hover
+				background-color: ligthen($grey, 3%)
+	.numb-text
+		color: $red
+		font-family: "HelveticaBold", sans-serif
+		font-size: 16px
+	.number
+		background-color: $grey
+		color: #e7eeff
+		padding: 0 6px
+		font-size: 32px
+		border-radius: 3px
+		font-family: "HelveticaBold", sans-serif
+		position: relative
+		z-index: 0
+		text-shadow: 0px 4px 0px rgba(0,2,4,.21)
+		display: inline-block
+		line-height: 1.42857;
+		&::before
+			content: ''
+			position: absolute
+			z-index: -1
+			width: 100%
+			height: 1px
+			left: 0
+			top: 50%
+			background-color: #a0a9c0
+
+.wrap-btn-ad
+	text-align: right
+	.button-red
+		display: inline-block
+		background-color: $red
+		color: #fff
+		font-family: "HelveticaBold", sans-serif
+		font-size: 16px
+		padding: 16px 40px 12px 40px
+		&:hover
+			background-color: lighten($red, 10%)
+			color: #fff
+		&:focus,
+		&:active
+			background-color: darken($red, 10%)
+		i
+			margin-right: 10px
+		span
+			margin-top: -4px
+			display: inline-block
+			vertical-align: middle
+
+
+//row menu
+.main-menu
+	background-color: $grey
+	ul
+		padding-left: 20px
+	li
+		display: inline-block
+		&.active
+			a
+				color: #e7eeff
+		a
+			color: #fff
+			border: none
+			padding: 16px 20px
+			font-family: "MyriadPro", sans-serif
+			font-size: 18px
+			display: block
+			&:hover,
+			&:focus,
+			&:active
+				color: #e7eeff
+
+.mobile-menu
+	padding: 16px 18px
+	background-color: $grey
+	color: #fff
+	font-family: "HelveticaBold", sans-serif
+	font-size: 16px
+	line-height: 18px
+	margin-right: 15px
+	span 
+		position: relative
+		display: inline-block
+		vertical-align: top
+		margin-right: 10px
+	span,
+	span:after,
+	span:before
+		width: 25px
+		height: 4px
+		background-color: #fff
+		transition: all 0.3s
+		backface-visibility: hidden
+	span:after,
+	span:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 7px
+	span:after
+		top: 14px
+	i
+		font-style: normal
+.active-menu
+	background-color: lighten($grey, 15%)
+
+
+//Sidebar
+.wrap-sb-banner
+	margin-bottom: 10px
+	.sb-banner
+		width: 100%
+
+.sidebar
+	i
+		font-style: normal
+	background-color: $azure
+	border: 1px solid #d0dbf5
+	padding: 20px 15px
+	hr
+		margin: 10px -15px 10px -15px
+		border-top: 1px solid #bbc3d7
+	h3
+		margin-top: 0
+		margin-bottom: 18px
+		font-family: "HelveticaBold", sans-serif
+		color: #000
+		font-size: 18px
+
+.select-mark
+	padding-bottom: 10px
+	.select-text
+		font-family: "MyriadPro", sans-serif
+		color: #474f62
+		margin-bottom: 10px
+	.tag-car
+		border: 1px solid #eda200
+		display: inline-block
+		border-radius: 2px 0
+		margin-right: 10px
+		margin-bottom: 10px
+		span
+			font-family: "MyriadPro", sans-serif
+			color: #a26f00
+			padding: 5px 10px
+			background-color: #ffec84
+			display: inline-block
+			border-right: 1px solid #eda200
+			vertical-align: middle
+		button
+			height: 30px
+			width: 30px
+			margin-left: -4px
+			vertical-align: middle
+			background-color: #ffec84
+			i::before
+				font-size: 14px
+				color: #a26f00
+		
+
+.filters
+	select
+		display: block
+		width: 100%
+	
+.filter
+	margin-bottom: 15px
+	.filt-title
+		margin-bottom: 6px
+		display: inline-block
+		border-bottom: none
+		span
+			font-family: "HelveticaBold", sans-serif
+			color: #000
+			border-bottom: 1px dotted #000
+		i
+			color: #000
+		span,
+		i
+			transition: all .3s ease
+		&:hover,
+		&:focus
+			span
+				border-bottom: 1px dotted $grey
+			span,
+			i
+				color: $grey
+	.filt-content
+
+.filt-title-open
+	i
+		transform: rotate(180deg)
+
+.select2-container--default
+	.select2-selection--single
+		border-radius: 2px
+		border: 1px solid #c3cde6
+		.select2-selection__rendered
+			color: #7f89a2
+
+.param-wrap
+	display: inline
+	&:first-child
+		margin-right: 10px
+	.label-text,
+	input
+		vertical-align: middle
+	input
+		text-align: center
+		padding: 7px 10px
+		width: 85px
+		border-radius: 2px
+		border: 1px solid #c3cde6
+	.label-text
+		padding-right: 5px
+		color: #000
+	.rubl
+		font-family: "Rouble", Arial, sans-serif
+		padding-left: 3px
+		color: #000
+		vertical-align: middle
+
+.year-create
+	.select2-container
+		width: 70px !important
+
+.search-reg
+	.select-reg
+		a
+			border-bottom: 1px dotted $blue
+			&:hover,
+			&:focus,
+			&:active
+				border-bottom: 1px dotted $red
+
+.features-auto
+	font-family: "HelveticaBold", sans-serif
+	font-size: 16px
+	color: #000
+	margin-bottom: 15px
+
+
+.button-feat-wrap
+	margin-bottom: 15px
+
+.button-feat-active
+	padding: 6px 12px
+	background-color: #7f89a2
+	color: #fff
+	font-family: "HelveticaBold", sans-serif
+	font-size: 15px
+	&:hover
+		background-color: lighten(#7f89a2, 10%)
+	&:focus,
+	&:active
+		background-color: darken(#7f89a2, 10%)
+
+.button-feat-disable
+	background-color: transparent
+	padding: 0
+	margin-left: 30px
+	color: #7f89a2
+	border-radius: 0
+	border-bottom: 1px dotted #7f89a2
+	&:hover,
+	&:focus,
+	&:active
+		color: darken(#7f89a2, 10%)
+		border-bottom: 1px dotted darken(#7f89a2, 10%)
+
+.wrap-car-checkbox
+	margin: 15px 15px 15px 0
+	&:hover,
+	&:focus,
+	&:active
+		.checkbox-custom-btu
+			background-image: url("../img/sedan-icon-active.png")
+		.label-btu
+			color: $red
+			span
+				border-bottom: 1px dotted $red
+	.checkbox-btu
+		display: none
+	.checkbox-custom-btu
+		position: relative
+		transition: all 0.3s ease
+		background-image: url("../img/sedan-icon.png")
+		width: 69px
+		height: 23px
+		display: inline-block
+	.label-btu
+		transition: all 0.3s ease
+		margin: 0
+		text-align: center
+		padding-left: 12px
+		span
+			display: inline-block 
+			border-bottom: 1px dotted #000
+		sup
+			margin-left: 3px
+	.checkbox-btu:checked + .checkbox-custom-btu::before
+		content: ""
+		display: block
+		width: 69px
+		height: 23px
+		position: absolute
+		background-image: url("../img/sedan-icon-active.png")
+	.checkbox-btu:checked + .label-btu
+		color: $red
+	.checkbox-btu:checked +
+		.label-btu
+			span
+				border-bottom: 1px dotted $red
+
+.transmission,
+.condition,
+.wheel,
+.engine,
+.actuator,
+.color-auto
+	.wrap-checkbox
+		label
+			display: block
+			margin-right: 0
+
+.mileage,
+.power	
+	.param-wrap
+		input
+			width: 80px
+		i
+			vertical-align: middle
+			color: #000
+
+.power	
+	.param-wrap
+		input
+			width: 70px
+
+.range-slider-wrap
+	margin-top: 20px
+	.irs-slider
+		width: 19px
+		height: 20px
+	.irs-from,
+	.irs-to,
+	.irs-single
+		background-color: #7f89a2
+		top: -3px
+		padding: 3px 5px
+	.irs-from:after,
+	.irs-to:after,
+	.irs-single:after
+		border-top-color: #7f89a2
+
+.color-auto
+	.col-white
+		background-color: #fff
+		border: 1px solid #fff
+	.col-black
+		background-color: #000
+		border: 1px solid #000
+	.col-grey
+		background-color: #c7ccd9
+		border: 1px solid #c7ccd9
+	.col-red
+		background-color: #e1312a
+		border: 1px solid #e1312a
+	.col-purple
+		background-color: #4c0bb6
+		border: 1px solid #4c0bb6
+	.col-blue
+		background-color: #0f52ff
+		border: 1px solid #0f52ff
+	.col-green
+		background-color: #207315
+		border: 1px solid #207315
+	.checkbox:checked + .checkbox-custom::before
+		border: 1px solid transparent
+	.checkbox:checked +
+		.checkbox-custom
+			i
+			 &::before
+			 	color: #fff
+			 	content: "\e010"
+	.checkbox:checked +
+		.col-white
+			i
+			 &::before
+			 	color: #000
+
+.go-filt
+	margin-top: 25px
+	.button-red
+		padding: 12px 25px
+
+
+
+// Catalog
+.catalog-wrap
+	margin-left: 15px
+
+
+//Head catalog
+.title-sect
+	h2
+		font-size: 24px
+		color: #000
+		margin: 0
+		display: inline-block
+		margin-right: 3px
+		font-family: "Lato-Black", sans-serif
+		display: inline
+		line-height: 32px
+		a
+			color: $red
+			border-bottom: 1px dotted $red
+			&:hover,
+			&:active,
+			&:focus
+				text-align: none
+				border-color: transparent
+	.select-dist
+		font-size: 18px
+		font-family: "MyriadPro", sans-serif
+		// vertical-align: text-bottom
+		line-height: 25px
+		a
+			color: $red
+			border-bottom: 1px dotted $red
+			&:hover,
+			&:active,
+			&:focus
+				text-align: none
+				border-color: transparent
+
+.head-catalog
+	border-bottom: 1px solid #d6ddef
+	.bread-crumbs
+		margin: 25px 0 5px 0
+		ul
+			list-style-type: none
+			padding: 0
+			display: table
+			font-size: 18px
+			margin: 0
+		li
+			display: table-cell
+			color: #000
+			&::before
+				content: '\2192'
+				padding: 0 8px
+				color: #94a1bf
+			&:first-child
+				&::before
+					content: ''
+					padding: 0
+				a
+					border: none
+			i
+				display: inline-block
+				vertical-align: middle
+				position: relative
+				width: 17px
+				height: 22px
+				border-bottom: 1px solid #000
+				top: -1px
+				transition: border-color .3s ease
+				&::before
+					font-size: 24px
+					position: relative
+					left: -3px
+					// border-bottom: 1px solid #000
+				&:hover
+					border-bottom: 1px solid $red
+			a
+				color: #000
+				border-bottom: 1px solid #000
+				&:hover,
+				&:focus,
+				&:active
+					color: $red
+					border-color: $red
+
+.view-catalog
+	padding: 20px 0
+	.sel-view-sign
+		color: $grey
+		vertical-align: top
+		margin-right: 10px
+	.numb-adv,
+	.select-view
+		display: inline-block
+		i::before
+			font-size: 28px
+			color: #c0c8de
+		.radio-btn:checked + .rad-btn-content::before
+			color: $red			
+	.numb-adv
+		color: $grey
+		margin: 0
+	.select-view
+		float: right
+		
+
+//catalog tools
+.catalog-tools
+	padding: 20px 0
+	.label
+		font-weight: normal
+	.show-ad,
+	.filter-catalog
+		> span
+			vertical-align: middle
+			color: $grey
+			display: inline-block
+			margin-right: 10px
+
+.filter-catalog
+	text-align: right
+	.select2
+		text-align: left
+		margin-right: 0 !important
+		width: 175px !important
+
+.catalog-pagination
+	text-align: center
+	padding: 20px 0
+	ul
+		list-style-type: none
+	li
+		display: inline-block
+	a, .dotted
+		border: none
+		padding: 9px 13px
+		background-color: #d6ddef
+		border-radius: 3px
+		color: $grey
+		font-family: "HelveticaBold", sans-serif
+	a
+		&:hover,
+		&:focus,
+		&:active
+			background-color: $red
+			color: #fff
+	a.active
+		background-color: $red
+		color: #fff
+	.start-page,
+	.finish-page
+		background-color: #7f89a2
+		color: #fff
+		margin: 0 7px
+	.disabled
+		background-color: #d6d8dd
+		cursor: default
+		&:hover,
+		&:focus,
+		&:active
+			background-color: #d6d8dd
+
+
+//main-catalog
+.vip-catalog
+	background-color: #ffe86a
+	border: 2px solid #ff9c00
+	border-radius: 3px
+	padding: 2px
+	position: relative
+	transition: all .3s ease
+	.vip-sign
+		position: absolute
+		top: 0
+		right: 0
+		z-index: 2
+		font-family: "HelveticaBold", sans-serif
+		color: #fff
+		background-color: #ff9c00
+		padding: 6px 15px
+		font-size: 	16px
+
+
+//Items
+.cards-view
+	.list-catalog-head
+		display: none	
+	.item-catalog
+		border: 1px solid #c3cde6
+		background-color: #fffcec
+		border-radius: 3px
+		padding: 10px
+		transition: all .3s ease	
+		&:hover,
+		&:focus,
+		&:active
+			background-color: #e7eeff
+			border-color: #dbd5b2
+		.item-img-wrap
+			position: relative
+			img
+				width: 100%
+				border-radius: 1px
+			.top-icon,
+			.plus-img
+				position: absolute
+			.top-icon
+				top: 0
+				left: 0
+				background-color: rgba(255,255,255,0.75)
+				a
+					color: #000
+					border-bottom: none
+					padding: 4px 7px
+					display: inline-block
+					&:hover,
+					&:focus,
+					&:active
+						color: $red
+						i::before
+				i::before
+					vertical-align: bottom
+					
+			.plus-img
+				bottom: 0
+				right: 0
+				background-color: rgba(0,0,0,0.65)
+				color: #fff
+				padding: 3px 10px
+				font-family: "HelveticaBold", sans-serif
+		.date-ad
+			font-size: 12px
+			color: #31394c
+			display: block
+			margin-top: 5px
+			i::before
+				font-size: 15px
+				color: $red
+				display: inline-block
+				margin-right: 5px
+		> a
+			border-bottom: none
+			&:hover,
+			&:focus,
+			&:active
+				h4
+					color: $red
+		h4
+			display: inline-block
+			height: 40px
+			overflow: hidden
+			transition: all .3s ease
+			letter-spacing: 1px
+			font-size: 18px
+			color: #000
+			margin: 10px 0 12px 0
+		.ad-info
+			font-size: 13px
+			color: #3a404f
+
+			p
+				margin: 0 0 3px 0
+			span
+				font-family: "HelveticaBold", sans-serif
+		.add-info
+			margin-top: 20px
+			.type-auto
+				text-align: center
+				i::before
+					font-size: 50px
+					vertical-align: text-top
+			.item-car-color-wrap
+				text-align: right
+			.item-car-color
+				width: 20px
+				height: 20px
+				border-radius: 3px
+				display: inline-block
+				background-color: $red
+				vertical-align: text-top
+			.item-car-drive-wrap
+				text-align: right
+			.item-car-drive
+				font-family: "HelveticaBold", sans-serif
+				vertical-align: text-top
+		.ad-price
+			margin-top: 10px
+			padding-top: 15px
+			padding-bottom: 5px
+			border-top: 1px solid #d6ddef
+			.price-auto-wrap,
+			.vip-icon
+				display: inline-block
+			.price-auto-wrap
+				i
+					color: $red
+					margin-right: 5px
+				.price-auto,
+				.rybl
+					font-size: 18px
+					font-family: "HelveticaBold", sans-serif
+				.rybl
+					font-family: "Rouble", sans-serif
+					color: #7f89a2
+			.vip-icon
+				float: right
+		.tooltip
+			width: 95px !important
+
+//List view
+.list-view
+	display: table
+	width: 100%
+	background-color: #FFF
+	.vip-sign
+		top: -33px
+		right: -2px
+	.list-catalog-head
+		display: table-row
+		text-align: center
+		width: 100%
+		vertical-align: middle
+		color: #7f89a2
+		border-bottom: 1px solid #7f89a2
+		span
+			display: table-cell
+			height: 40px		
+	.item-catalog
+		display: table-row
+		width: 100%
+		border: 1px solid #c3cde6
+		border-radius: 3px
+		transition: all .3s ease
+		height: 100px	
+		&:hover,
+		&:focus,
+		&:active
+			background-color: #e7eeff
+			border-color: #dbd5b2
+		> div,a,span
+			vertical-align: middle
+			padding: 10px 0
+			text-align: center
+		.item-img-wrap
+			position: relative
+			display: table-cell
+			padding: 0
+			width: 150px
+			a
+				border: none
+			img
+				width: 150px
+				border-radius: 1px
+			.top-icon,
+			.plus-img
+				position: absolute
+			.top-icon
+				top: 7px
+				left: 0
+				background-color: rgba(255,255,255,0.75)
+				a
+					color: #000
+					border-bottom: none
+					padding: 4px 7px
+					display: inline-block
+					&:hover,
+					&:focus,
+					&:active
+						color: $red
+						i::before
+				i::before
+					vertical-align: bottom
+			.plus-img
+				font-size: 12px
+				bottom: 8px
+				right: 0
+				background-color: rgba(0,0,0,0.65)
+				color: #fff
+				padding: 2px 6px
+				font-family: "HelveticaBold", sans-serif
+		.date-ad
+			font-size: 14px
+			color: #31394c
+			display: block
+			margin-top: 5px
+			display: table-cell
+			i::before
+				display: none
+				font-size: 15px
+				color: $red
+				margin-right: 5px
+		>a
+			border-bottom: none
+			display: table-cell
+			&:hover,
+			&:focus,
+			&:active
+				h4
+					color: $red
+			h4
+				display: inline-block
+				overflow: hidden
+				transition: all .3s ease
+				letter-spacing: 1px
+				font-size: 14px
+				color: #000
+				margin: 0
+				vertical-align: middle
+		.ad-info
+			display: table-cell
+			font-size: 13px
+			color: #3a404f
+			width: 300px
+			text-align: left
+			p
+				margin: 0 0 3px 0
+			span
+				font-family: "HelveticaBold", sans-serif
+		.add-info
+			display: table-cell
+			margin-top: 20px
+			.wheel-pos,
+			.type-auto,
+			.item-car-drive-wrap,
+				display: none
+			.type-auto
+				text-align: center
+				i::before
+					font-size: 50px
+					vertical-align: text-top
+			.item-car-color-wrap
+				width: 100%
+			.item-car-color
+				width: 20px
+				height: 20px
+				border-radius: 3px
+				display: inline-block
+				background-color: $red
+				vertical-align: text-top
+			.item-car-drive-wrap
+				text-align: right
+			.item-car-drive
+				font-family: "HelveticaBold", sans-serif
+				vertical-align: text-top
+		.ad-price
+			display: table-cell
+			.price-auto-wrap,
+			.vip-icon
+				display: inline-block
+			.price-auto-wrap
+				i
+					color: $red
+					display: none
+					margin-right: 5px
+				.price-auto,
+				.rybl
+					font-size: 15px
+					font-family: "HelveticaBold", sans-serif
+				.rybl
+					font-family: "Rouble", sans-serif
+					color: #7f89a2
+			.vip-icon
+				display: none
+		.tooltip
+			width: 95px !important
+// 
+.default-catalog
+	margin-top: 20px	
+
+.catalog-banner-wrap
+	margin: 25px 0
+	a
+		border: none
+	img
+		width: 100%
+		padding: 0 5px
+
+.down-ad-wrap
+	text-align: center
+	padding: 20px 0
+	.button-red
+		padding: 15px 50px
+		font-family: "HelveticaBold", sans-serif
+		font-size: 18px
+
+
+.view-catalog-bottom
+	margin-top: 20px
+	border-bottom: 1px solid #D6DDEF
+
+.ad-neighbors,
+.popular-models
+	margin-top: 50px
+	.add-info-list
+		margin-top: 25px
+		display: inline-block
+		ul
+			list-style-type: none
+			margin: 0
+			padding: 0
+		li
+			width: 200px
+			float: left
+			margin-bottom: 20px
+		p
+			margin: 0
+		a
+			font-size: 18px
+			font-family: "HelveticaBold", sans-serif
+			color: $red
+			border-bottom: none
+			display: block
+			&:nth-child(even)
+				margin-left: 60px
+			&:hover,
+			&:focus,
+			&:active
+				span
+					border-color: $red
+			span
+				border-bottom: 1px dotted transparent
+				transition: all .3s ease
+			sup
+				margin-left: 5px
+				font-size: 14px
+				color: #000
+
+.popular-models
+	.add-info-list
+		a
+			color: #656c7e
+			&:hover,
+			&:focus,
+			&:active
+				span
+					border-color: #656c7e
+
+.description-mark
+	margin-top: 50px
+	.mark-logo-wrap
+		margin: 20px 0
+	.content-mark
+		strong
+			font-family: "HelveticaBold",sans-serif
+
+.wrap-footer
+	margin-top: 50px
+
+.main-footer
+	background-color: #eceff7
+	position: relative
+	padding: 50px 0
+	&::before
+		content: ''
+		position: absolute
+		top: -2px
+		left: 0
+		height: 3px
+		width: 100%
+		background-image: url("../img/foot-border.png")
+		background-repeat: repeat-x
+
+.newsletter
+	margin-top: 50px
+	label
+		display: block
+		p
+			display: block
+			font-size: 18px
+			font-family: "HelveticaBold", sans-serif
+			color: #484e5e
+			margin-bottom: 5px
+		input
+			display: inline-block
+			width: 55%
+			margin-right: 10px
+			padding: 10px
+			border-radius: 2px
+			border: 1px solid #c3cde6
+		.btn-wrap
+			display: inline-block
+			text-align: left
+		.button-red
+			padding: 10px 25px
+
+.foot-links
+	margin-left: 20px
+	h5
+		display: inline-block
+		margin: 0
+		font-size: 18px
+		font-family: "HelveticaBold", sans-serif
+		color: #000
+		padding-bottom: 8px
+		border-bottom: 3px solid $red
+		margin-bottom: 20px
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+	li
+		margin-bottom: 10px
+		a
+			font-size: 15px
+
+.foot-catalog-ad
+	li
+		float: left
+		width: 45%
+		&:nth-child(even)
+			margin-left: 20px
+			
+.bottom-footer
+	padding: 12px 0
+	background-color: $grey
+	a
+		border: none
+
+.romza-logo
+	border: none
+	float: right
+	padding: 6px 0 3px 0;
+
+//Media and ...
+@import "media.sass"

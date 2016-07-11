@@ -1,0 +1,259 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.region
+		p
+			display: none
+	.wrap-btn-ad
+		.button-red
+			padding: 16px 25px 12px 25px
+	.list-view
+		margin-top: 30px
+		.item-catalog
+			.add-info
+				display: none
+			.item-img-wrap
+				width: 100px
+				img
+					width: 100px
+				.plus-img
+					display: none	
+				.top-icon
+					top: 22px
+					a
+						padding: 2px 4px
+	.list-catalog-head
+		span:nth-child(5)
+			display: none
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	header
+		margin-bottom: 0
+	.branding
+		margin-bottom: 15px
+	.top-line
+		.container
+			width: 100%
+	.auth
+		text-align: center	
+	.col-md-brand
+		width: 100%
+	.col-md-search
+		width: 100%
+	.brand-panel, nav
+		.container
+			// width: 85%
+	.brand-panel
+		padding-bottom: 20px
+	.numbers
+		float: right
+	.main-menu
+		display: none
+		position: absolute
+		background-color: lighten($grey, 15%)
+		top: 255px
+		z-index: 5
+		ul
+			padding-left: 0
+		li
+			display: block
+			a
+				font-size: 16px
+	.catalog-wrap
+		margin: 0
+	.filter
+		width: 45%
+		margin-right: 25px
+		display: inline-block
+	.catalog-wrap
+		margin-top: 20px
+	.foot-links
+		margin-left: 0
+		margin-top: 30px
+	.list-view
+		.item-catalog
+			.add-info
+				display: table-cell
+			.item-img-wrap
+				width: 150px
+				img
+					width: 150px
+				.plus-img
+					display: block	
+				.top-icon
+					top: 7px
+					a
+						padding: 4px 7px
+	.list-catalog-head
+		span:nth-child(5)
+			display: block
+
+	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.container
+		margin: 0 15px
+	.top-line
+		.container
+			margin: 0
+	aside
+		margin: 0 -15px
+	.filter-catalog
+		text-align: left
+		margin-top: 15px
+	.view-catalog
+		.select-view
+			display: none
+	.cards-view
+		.col-lg-4
+			margin: 5px
+	
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+@media only screen and (max-width : 520px)
+	.branding
+		img
+			width: 140px
+		.brand-text
+			h1
+				line-height: 54px
+				font-size: 32px
+			p
+				display: none
+	.main-menu
+		top: 257px
+	.mmenu-wrap
+		width: 35%
+	.btn-post-ad
+		width: 65%
+		float: right
+	.filter
+		width: 100%
+		margin-right: 0
+		display: block
+	.branding
+		text-align: center
+	.newsletter
+		text-align: center
+		margin-top: 35px
+	.bottom-footer
+		text-align: center
+		a
+			width: 100%
+			display: block
+		.romza-logo
+			margin-top: 20px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.branding
+			text-align: center
+	.auth
+		span
+			display: none
+	.down-ad-wrap
+		.button-red
+			font-size: 16px
+			padding: 15px 25px
+	.newsletter
+		p
+			margin: 0
+		label
+			input
+				width: 100%
+			.btn-wrap
+				margin-top: 15px
+	.foot-catalog-ad
+		li
+			display: block
+			width: 100%
+			&:nth-child(even)
+				margin-left: 0
+
+@media only screen and (max-width : 420px)
+	.main-menu
+		top: 244px
+	.mmenu-wrap
+		width: 18%
+	.btn-post-ad
+		width: 80%
+	.text-mmenu
+		display: none
+	.mobile-menu
+		padding: 12px 14px
+		span
+			margin-right: 0
+	.brand-panel
+		.wrap-btn-ad
+			.button-red
+				padding: 11px 15px 9px
+
+@media only screen and (max-width : 341px)
+	.main-menu
+		top: 298px
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.cards-view
+		.col-lg-4
+			width: 48%
+			margin: 5px 1%
+			float: left
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.cards-view
+		.col-lg-4
+			width: 48%
+			margin: 5px 1%
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.col-md-brand
+		width: 45%
+	.col-md-search
+		width: 55%
+	.cards-view
+		.col-lg-4
+			width: 32.5%
+			margin: 5px 0.4%

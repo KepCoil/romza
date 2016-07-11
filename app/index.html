@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 8]>
+		<link href="css/ie8.css" rel="stylesheet" />
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<header>
+		<div class="top-line">
+			<div class="container">
+				<div class="col-lg-6 col-md-4 col-sm-9 hidden-sm hidden-xs">
+					<div class="region">
+						<i class="flaticon-compass47"></i>
+						<div class="region-text">
+							<p>Укажите регион поиска:</p>
+							<div class="select-reg">
+								<a class="city" href="#">Красноярск</a> (<a href="#">+100км</a>, <a href="#">+200км</a>, <a href="#">+300км</a>) 
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-3 hidden-sm hidden-xs">
+					<div class="reg-btn-wrap">
+						<a href="#" class="addreg">+ добавить ещё один</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-12">
+					<div class="auth">
+						<a href="#"><i class="flaticon-open4"></i><p>Вход <span class="hidden-lg hidden-md">в личный кабинет</span></p></a>
+						<a href="#"><i class="flaticon-note32"></i><p>Регистрация</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="brand-panel">
+			<div class="container">
+				<div class="col-md-6 col-md-brand col-sm-12">
+					<div class="branding">
+						<a href="#">
+							<img src="img/brand-logo.png" alt="logo">
+							<div class="brand-text">
+								<h1>BBS: <span>Auto</span></h1>
+								<p>Доска объявлений о продаже автомобилей</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-search col-sm-6">
+					<div class="col-md-12">
+						<form method="" action="" class="search-form">
+							<div class="input-group">
+								<div class="input-group-btn">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+										<span class="caret"></span> 
+										<span class="sr-only">Toggle Dropdown</span> 
+									</button> 
+									<ul class="dropdown-menu"> 
+										<li><a href="#">Меню</a></li>
+										<li><a href="#">Меню длинное</a></li> 
+										<li><a href="#">Меню длинное придлинное</a></li>
+									</ul>
+								</div>
+								<input type="text" class="form-control" placeholder="Я ищу автомобиль" aria-label="Text input with segmented button dropdown">
+								<div class="input-group-btn">
+									<button type="button" class="btn btn-default btn-search"><i class="flaticon-magnifyingglass18"></i><span>Найти</span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-xs-6 mmenu-wrap">
+						<button class="mobile-menu hidden-lg hidden-md"><span></span><i class="text-mmenu">Меню</i></button>
+						<div class="numbers hidden-sm hidden-xs">
+							<span class="numb-text">Объявлений в базе</span>
+							<a href="#">
+								<div class="numbers-wrap">
+									<span class="number">3</span>
+									<span class="number">2</span>
+									<span class="number">1</span>
+									<span class="number">4</span>
+									<span class="number">5</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-6 btn-post-ad">
+						<div class="wrap-btn-ad">
+							<a href="#" class="button-red"><i class="flaticon-list56"></i><span>Подать объявление</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav>
+			<div class="container">
+				<div class="main-menu clearfix">
+					<ul class="clearfix">
+						<li class="active"><a href="#">Каталог объявлений</a></li>
+						<li><a href="#">Правила размещения BBS: Auto</a></li>
+						<li><a href="#">Автокомпании</a></li>
+						<li><a href="#">Почитать</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+	
+	<main>
+		<div class="container">
+
+			<div class="col-lg-3 col-md-4">
+				<aside>
+					<div class="wrap-sb-banner">
+						<a href="#"><img class="sb-banner hidden-sm hidden-xs" src="img/sb-img.jpg" alt="баннер"></a>
+					</div>
+				 	<div class="sidebar">
+						<h3>Фильтр по параметрам</h3>
+
+						<div class="select-mark">
+							<p class="select-text">Выбрано:</p>
+							<div class="tag-car">
+								<span>Audi</span>
+								<button><i class="flaticon-cross92"></i></button>
+							</div>
+							<div class="tag-car">
+								<span>A6 Avant</span>
+								<button><i class="flaticon-cross92"></i></button>
+							</div>
+							<div class="tag-car">
+								<span>A6 Avant</span>
+								<button><i class="flaticon-cross92"></i></button>
+							</div>
+							<div class="tag-car">
+								<span>A3</span>
+								<button><i class="flaticon-cross92"></i></button>
+							</div>
+							<hr>
+						</div>
+
+						<div class="filters">
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".mark-auto" aria-expanded="false" aria-controls="mark-auto">
+									<span>Марка</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse  mark-auto">
+									<select class="main-select" tabindex="-1" aria-hidden="true">
+										<option value="Honda">Honda</option>
+										<option value="Nissan">Nissan</option>
+										<option value="Audi">Audi</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".model-auto" aria-expanded="false" aria-controls="model-auto">
+									<span>Модель</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse model-auto">
+									<select class="main-select">
+										<option value="Honda">Honda</option>
+										<option value="Nissan">Nissan</option>
+										<option value="Audi">Audi</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".gen-auto" aria-expanded="false" aria-controls="gen-auto">
+									<span>Поколение</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse gen-auto">
+									<select class="main-select">
+										<option value="1">1 поколение</option>
+										<option value="2">2 поколение</option>
+										<option value="3">3 поколение</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".cost-auto" aria-expanded="false" aria-controls="cost-auto">
+									<span>Стоимость</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse cost-auto">
+									<label class="param-wrap">
+										<span class="label-text">от</span>
+										<input type="text" placeholder="300 000">
+										<i class="rubl">P</i>
+									</label>
+									<label class="param-wrap">
+										<span class="label-text">до</span>
+										<input type="text" placeholder="1 200 000">
+										<i class="rubl">P</i>
+									</label>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".year-create" aria-expanded="false" aria-controls="year-create">
+									<span>Год выпуска</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse year-create">
+									<label class="param-wrap">
+										<span class="label-text">c</span>
+										<select class="main-select">
+											<option value="1999">1999</option>
+											<option value="2000">2000</option>
+											<option value="2001">2001</option>
+											<option value="2002">2002</option>
+											<option value="2003">2003</option>
+										</select>
+									</label>	
+									<label class="param-wrap">
+										<span class="label-text">по</span>
+										<select class="main-select">
+											<option value="1999">1999</option>
+											<option value="2000">2000</option>
+											<option value="2001">2001</option>
+											<option value="2002">2002</option>
+											<option selected value="2003">2003</option>
+										</select>
+									</label>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".search-reg" aria-expanded="false" aria-controls="search-reg">
+									<span>Искать в регионе</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse search-reg">
+									<div class="select-reg">
+										<a class="city" href="#">Красноярск</a> (<a href="#">+100км</a>, <a href="#">+200км</a>, <a href="#">+300км</a>) 
+									</div>
+								</div>
+							</div>
+
+							<hr>
+
+							<h4 class="features-auto">Характеристики</h4>
+							<div class="button-feat-wrap">
+								<button class="button-feat-active">Важные</button>
+								<button class="button-feat-disable">Дополнительные</button>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".body-type-auto" aria-expanded="false" aria-controls="body-type-auto">
+									<span>Тип кузова</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse body-type-auto">
+									<label class="wrap-car-checkbox">
+										<input type="checkbox" class="checkbox-btu">
+										<span class="checkbox-custom-btu"></span>
+											<p class="label-btu"><span>Седан</span><sup>11</sup></p>
+									</label>
+									<label class="wrap-car-checkbox">
+										<input type="checkbox" class="checkbox-btu">
+										<span class="checkbox-custom-btu"></span>
+											<p class="label-btu"><span>Седан</span><sup>11</sup></p>
+									</label>
+									<label class="wrap-car-checkbox">
+										<input type="checkbox" class="checkbox-btu">
+										<span class="checkbox-custom-btu"></span>
+											<p class="label-btu"><span>Седан</span><sup>11</sup></p>
+									</label>
+									<label class="wrap-car-checkbox">
+										<input type="checkbox" class="checkbox-btu">
+										<span class="checkbox-custom-btu"></span>
+											<p class="label-btu"><span>Седан</span><sup>11</sup></p>
+									</label>
+									<label class="wrap-car-checkbox">
+										<input type="checkbox" class="checkbox-btu">
+										<span class="checkbox-custom-btu"></span>
+											<p class="label-btu"><span>Седан</span><sup>11</sup></p>
+									</label>
+									<label class="wrap-car-checkbox">
+										<input type="checkbox" class="checkbox-btu">
+										<span class="checkbox-custom-btu"></span>
+											<p class="label-btu"><span>Седан</span><sup>11</sup></p>
+									</label>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".count-door" aria-expanded="false" aria-controls="count-door">
+									<span>Количество дверей</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse count-door">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">2<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">3<sup>3</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">4<sup>15</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">5<sup>11</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">не указано<sup>20</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".transmission" aria-expanded="false" aria-controls="transmission">
+									<span>Коробка передач</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse transmission">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Механическая<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Автоматическая<sup>11</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Не указано<sup>25</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".mileage" aria-expanded="false" aria-controls="mileage">
+									<span>Пробег</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse mileage">
+									<label class="param-wrap">
+										<span class="label-text">от</span>
+										<input type="text" placeholder="50 000">
+										<i>км</i>
+									</label>
+									<label class="param-wrap">
+										<span class="label-text">до</span>
+										<input type="text" placeholder="150 000">
+										<i>км</i>
+									</label>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".pts" aria-expanded="false" aria-controls="pts">
+									<span>Владельцев по ПТС</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse pts">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">2<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">3<sup>3</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">4<sup>15</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">5<sup>11</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">не указано<sup>20</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".condition" aria-expanded="false" aria-controls="condition">
+									<span>Состояние</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse condition">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Отличное<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Хорошее<sup>11</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Среднее<sup>25</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Плохое<sup>25</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">После аварии<sup>25</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Не указано<sup>25</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".wheel" aria-expanded="false" aria-controls="wheel">
+									<span>Руль</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse wheel">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Слева<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Справа<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Не указано<sup>2</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".engine" aria-expanded="false" aria-controls="engine">
+									<span>Двигатель</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse engine">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Бензин<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Дизель<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Не указано<sup>2</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".power" aria-expanded="false" aria-controls="power">
+									<span>Мощность (л.с.)</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse power">
+									<label class="param-wrap">
+										<span class="label-text">от</span>
+										<input placeholder="50" type="text" id="start-power">
+										<i>л.</i>
+									</label>
+									<label class="param-wrap">
+										<span class="label-text">до</span>
+										<input placeholder="300" type="text" id="finish-power">
+										<i>л.</i>
+									</label>
+									<div class="range-wrap">
+										<div id="slider-power"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".vol-eng" aria-expanded="false" aria-controls="vol-eng">
+									<span>Объем двигателя (литр)</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse vol-eng">
+									<label class="param-wrap">
+										<span class="label-text">от</span>
+										<input placeholder="0" type="text" id="start-vol-eng">
+										<i>л.</i>
+									</label>
+									<label class="param-wrap">
+										<span class="label-text">до</span>
+										<input placeholder="6" type="text" id="finish-vol-eng">
+										<i>л.</i>
+									</label>
+									<div class="range-wrap">
+										<div id="slider-vol-eng"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".actuator" aria-expanded="false" aria-controls="actuator">
+									<span>Привод</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse actuator">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Передний<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Задний<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Полный (4WD)<sup>2</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<a class="filt-title" role="button" data-toggle="collapse" href=".color-auto" aria-expanded="false" aria-controls="color-auto">
+									<span>Цвет</span>
+									<i class="caret"></i>
+								</a>
+								<div class="filt-content collapse color-auto">
+									<div class="wrap-checkbox">
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-white">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Белый<sup>11</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-black">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Черный<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-grey">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Серебристый<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-red">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Красный<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-purple">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Баклажан<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-blue">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Синий<sup>2</sup></span>
+										</label>
+										<label>
+											<input class="checkbox" type="checkbox" name="checkbox-test">
+											<span class="checkbox-custom col-green">
+												<i class="flaticon-check28"></i>
+											</span>
+											<span class="label-cb">Зеленый<sup>2</sup></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="btn-wrap go-filt">
+							<a href="#" class="button-red">Показать объявления <sup>45</sup></a>
+						</div>
+
+				 	</div>
+				</aside>
+
+			</div>
+
+			<div class="col-lg-9 col-md-8">
+				<div class="catalog-wrap">
+					<div class="head-catalog">
+						<div class="title-sect catalog-title">
+							<h2>Объявления о продаже <span>Audi Audi </span> в <a href="#">Красноярске</a></h2>
+							<span class="select-dist">(<a href="#">+100км</a>, <a href="#">+200км</a>, <a href="#">+300км</a>)</span>
+						</div>
+						<div class="bread-crumbs">
+							<ul>
+								<li><a href="#"><i class="flaticon-home166"></i></a></li>
+								<li><a href="#">Audi</a></li>
+								<li>A6 Avant</li>
+							</ul>
+						</div>
+						<div class="view-catalog">
+							<p class="numb-adv">Объявления 1-<span>30</span> из <span>234</span></p>
+							<div class="select-view">
+								<span class="sel-view-sign">Вид:</span>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn catalog-cards-view" type="radio" name="top-view-catalog" checked>
+									<i class="flaticon-four81 rad-btn-content"></i>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn catalog-list-view" type="radio" name="top-view-catalog">
+									<i class="flaticon-list56 rad-btn-content"></i>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="catalog-tools clearfix">
+						<div class="col-lg-6 col-md-6 col-sm-5">
+							<div class="show-ad">
+								<span>Показывать по</span>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="top-count-ad" checked>
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">30</span></span>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="top-count-ad">
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">60</span></span>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="top-count-ad">
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">90</span></span>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="top-count-ad">
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">Все</span></span>
+								</label>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6 col-sm-7">
+							<div class="filter-catalog">
+								<span>Сортировать</span>
+								<select class="main-select" tabindex="-1" aria-hidden="true">
+									<option value="Honda">По умолчанию</option>
+									<option value="Nissan">По возврастанию цены</option>
+									<option value="Audi">По убыванию цены</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="catalog-pagination hidden-sm hidden-xs">
+						<ul>
+							<li><a href="javascript:void(0)" class="start-page disabled">В начало</a></li>
+							<li><a href="#" class="active">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><span class="dotted">...</span></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">8</a></li>
+							<li><a href="#" class="finish-page">В конец</a></li>
+						</ul>
+					</div>
+
+					<div class="vip-catalog clearfix cards-view">
+						<div class="vip-sign">VIP Объявления</div>
+						<div class="list-catalog-head">
+							<span>Фото</span>
+							<span>Дата</span>
+							<span>Марка, модель</span>
+							<span>Характеристики</span>
+							<span>Цвет</span>
+							<span>Цена</span>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+					
+					</div>
+
+
+					<div class="catalog-banner-wrap hidden-sm hidden-xs">
+						<a href="#"><img src="img/catalog-banner.jpg" alt="Баннер"></a>
+					</div>
+
+
+					<div class="default-catalog clearfix cards-view">
+
+						<div class="list-catalog-head">
+							<span>Фото</span>
+							<span>Дата</span>
+							<span>Марка, модель</span>
+							<span>Характеристики</span>
+							<span>Цвет</span>
+							<span>Цена</span>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+
+						<div class="item-catalog col-lg-4">
+							<div class="item-img-wrap">
+								<a href="#"><img src="img/catalog-img.jpg" alt="Картинка объявления"></a>
+								<div class="top-icon">
+									<a href="#"  type="button"  data-toggle="tooltip" data-placement="bottom" title="В избранное"><i class="flaticon-star129"></i></a>
+								</div>
+								<div class="plus-img">+ ещё 7 фото</div>
+							</div>
+							<span class="date-ad">
+								<time><i class="flaticon-monthly5"></i>12.04.2015</time>
+							</span>
+							<a href="#"><h4>BMW X5</h4></a>
+							<div class="ad-info clearfix">
+								<div class="col-xs-7">
+									<p>Год выпуска: <span>2002</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Пробег: <span>123 000</span></p>
+								</div>
+								<div class="col-xs-7">
+									<p>Двигатель: <span>бензин 2.5</span></p>
+								</div>
+								<div class="col-xs-5">
+									<p>Сидений: <span>5</span></p>
+								</div>
+							</div>
+							<div class="add-info clearfix">
+								<div class="col-xs-3 wheel-pos">
+									<img src="img/wheel-left.png" alt="Руль слева">
+								</div>
+								<div class="col-xs-3 type-auto">
+									<i class="flaticon-car122" data-toggle="tooltip" data-placement="bottom" title="Хетчбэк"></i>
+								</div>
+								<div class="col-xs-3 item-car-color-wrap">
+									<span class="item-car-color"></span>
+								</div>
+								<div class="col-xs-3 item-car-drive-wrap">
+									<span class="item-car-drive">4WD</span>
+								</div>
+							</div>
+							<div class="ad-price">
+								<div class="price-auto-wrap">
+									<i class="flaticon-tag43"></i>
+									<span class="price-auto">450 000</span>
+									<span class="rybl">R</span>
+								</div>
+								<div class="vip-icon">
+									<img src="img/vip-icon.png" alt="VIP">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="down-ad-wrap hidden-lg hidden-md">
+						<a href="#" class="button-red">Загрузить ещё объявления</a>
+					</div>
+
+
+					<div class="catalog-pagination hidden-sm hidden-xs">
+						<ul>
+							<li><a href="javascript:void(0)" class="start-page disabled">В начало</a></li>
+							<li><a href="#" class="active">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><span class="dotted">...</span></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">8</a></li>
+							<li><a href="#" class="finish-page">В конец</a></li>
+						</ul>
+					</div>
+
+
+					<div class="catalog-tools">
+						<div class="col-md-5">
+							<div class="show-ad">
+								<span>Показывать по</span>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="bottom-count-ad" checked>
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">30</span></span>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="bottom-count-ad">
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">60</span></span>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="bottom-count-ad">
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">90</span></span>
+								</label>
+								<label class="radio-btn-wrap">
+									<input class="radio-btn" type="radio" name="bottom-count-ad">
+									<span class="rad-btn-content-wrap"><span class="rad-btn-content">Все</span></span>
+								</label>
+							</div>
+						</div>
+
+
+						<div class="col-md-7">
+							<div class="filter-catalog">
+								<span>Сортировать</span>
+								<select class="main-select" tabindex="-1" aria-hidden="true">
+									<option value="Honda">По умолчанию</option>
+									<option value="Nissan">По возврастанию цены</option>
+									<option value="Audi">По убыванию цены</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="view-catalog view-catalog-bottom">
+						<p class="numb-adv">Объявления 1-<span>30</span> из <span>234</span></p>
+						<div class="select-view">
+							<span class="sel-view-sign">Вид:</span>
+							<label class="radio-btn-wrap">
+								<input class="radio-btn catalog-cards-view" type="radio" name="bottom-view-catalog" checked>
+								<i class="flaticon-four81 rad-btn-content"></i>
+							</label>
+							<label class="radio-btn-wrap">
+								<input class="radio-btn catalog-list-view" type="radio" name="bottom-view-catalog">
+								<i class="flaticon-list56 rad-btn-content"></i>
+							</label>
+						</div>
+					</div>
+
+
+					<div class="ad-neighbors">
+						<div class="title-sect">
+							<h2>Объявления о продаже <span>Audi</span> в <a href="#">соседних регионах</a></h2>
+							<span class="select-dist">(<a href="#">+100км</a>, <a href="#">+200км</a>, <a href="#">+300км</a>)</span>
+						</div>
+						<div class="add-info-list">
+							<div class="col-lg-7 col-md-8 col-sm-8 col-xs-12">
+								<ul class="clearfix">
+									<li>
+										<a href="#">
+											<p><span>Ачинск</span><sup>96</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Богучаны</span><sup>96</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Абакан</span><sup>8</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Рыбинск</span><sup>8</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Назарово</span><sup>10</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Канск</span><sup>10</sup></p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="popular-models">
+						<div class="title-sect">
+							<h2>Популярный модели марки <span>Audi</span></h2>
+						</div>
+						<div class="add-info-list">
+							<div class="col-lg-7 col-md-8 col-sm-8 col-xs-12">
+								<ul class="clearfix">
+									<li>
+										<a href="#">
+											<p><span>Ачинск</span><sup>96</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Богучаны</span><sup>96</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Абакан</span><sup>8</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Рыбинск</span><sup>8</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Назарово</span><sup>10</sup></p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p><span>Канск</span><sup>10</sup></p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="description-mark">
+						<div class="title-sect">
+							<h2>Марка <span>Audi</span></h2>
+							<div class="mark-logo-wrap">
+								<img src="img/audi-logo.png" alt="Логотип марки">
+							</div>
+						</div>
+						<div class="content-mark">
+							<p><strong>Audi (Ауди)</strong> — автомобилестроительный титан из Германии, официальное название которого звучит так: Audi AG. Ауди представляет собою автомобильную фирму, которая входит в состав такого масштабного концерна, как Volkswagen Group. Компания пережила достаточно за свою длительную историю: слияние с другими автомобильными компаниями Германии, Вторую мировую войну, изменения в специализации производимого товара и многое другое. Однако переломным моментом в истории данной фирмы и немецкого автомобилестроения в целом можно считать годы «Эры Пьёха». Именно под руководством Фердинанда Пьёха был разработан первый 5-цилиндровый двигатель и система турбонагнетания, выпущен первый легковой автомобиль с полным приводом quattro.</p>
+							<p>Технические характеристики автомобилей Audi ошеломляли. Легкосплавные кузова, мощные 8- и 12-цилиндровые двигатели, экономичные дизельные двигатели, совершенный аэродинамический дизайн. На сегодняшний день компания активно развивается во многих автомобильных направлениях: спортивные автомобили, автомобили бизнес и представительского классов, кроссоверы. Модельный ряд Audi изобилует такими автомобилями, как Q5, Q7, A4, A5, A3, A6, A8, TT, R8 и многими другими. Данные автомобили имеют разные вариации кузововNaN</p>
+						</div>
+					</div>
+
+
+					<div class="catalog-banner-wrap hidden-sm hidden-xs">
+						<a href="#"><img src="img/catalog-banner-bottom.jpg" alt="Баннер"></a>
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="wrap-footer">
+		<div class="main-footer">
+			<div class="container clearfix">
+
+				<div class="col-md-5">
+					<div class="branding">
+						<a href="#">
+							<img src="img/brand-logo.png" alt="logo">
+							<div class="brand-text">
+								<h1>BBS: <span>Auto</span></h1>
+								<p>Доска объявлений о продаже автомобилей</p>
+							</div>
+						</a>
+					</div>
+					<div class="newsletter">
+						<label>
+							<p>Подписаться на рассылку</p>
+							<input type="text" placeholder="Укажите ваш e-mail">
+							<span class="btn-wrap">
+								<button class="button-red">Подписаться</button>
+							</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="col-md-5">
+					<div class="foot-links foot-catalog-ad clearfix">
+						<h5>Каталог объявлений</h5>
+						<ul>
+							<li><a href="#">Легковые автомобили</a></li>
+							<li><a href="#">Ретрокары</a></li>
+							<li><a href="#">Коммерческий траспорт</a></li>
+							<li><a href="#">Автомода</a></li>
+							<li><a href="#">Мототехника</a></li>
+							<li><a href="#">Водный транспорт</a></li>
+							<li><a href="#">Спецтранспорт</a></li>
+							<li><a href="#">Воздушный траспорт</a></li>
+							<li><a href="#">Бронированные</a></li>
+							<li><a href="#">Альтернативный транспорт</a></li>
+							<li><a href="#">Прокатные авто</a></li>
+							<li><a href="#">Велосипеды</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-2">
+					<div class="foot-links foot-catalog-menu clearfix">
+						<h5>BBS: Auto</h5>
+						<ul>
+							<li><a href="#">Правила размещения объявлений</a></li>
+							<li><a href="#">Автокомпании</a></li>
+							<li><a href="#">Почитать</a></li>
+							<li><a href="#">Дилерам</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="container">
+				<a href="#">
+					<img src="img/1C-bitrix.png" alt="1C-Битрикс">
+				</a>
+				<a href="#" class="romza-logo">
+					<img src="img/romza-logo.png" alt="Romza">
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	
+	<div class="hidden"></div>
+
+
+	<script src="js/libs.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
